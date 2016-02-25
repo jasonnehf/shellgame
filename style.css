@@ -1,0 +1,99 @@
+.container {
+	text-align:center;
+	vertical-align:bottom;
+}
+
+button#resetbtn {
+	font-size:120%;
+}
+
+.shellgame-container{
+	width:auto;
+	text-align:center;
+	min-height:150px;
+	max-height:150px;
+	height:150px;
+	vertical-align:bottom;
+}
+.box{
+	border-radius: 180px 180px 20px 20px;
+	-moz-border-radius: 180px 180px 20px 20px;
+	-webkit-border-radius: 180px 180px 20px 20px;
+	border: 6px solid #000000;
+	display:inline-block;
+	margin:10px;
+	background-color:#256620;
+	width:175px;
+	height:175px;
+	vertical-align:bottom;
+}
+.box-up{
+	height:85px;
+}
+
+ .box-inside-win,.box-inside-lose
+{
+	text-align:center;
+	width:175px;
+	height:100px;
+	margin-top:50px;
+	margin-left:-6px;
+	border-radius: 200px 200px 400px 400px;
+	-moz-border-radius: 200px 200px 400px 400px;
+	-webkit-border-radius: 200px 200px 400px 400px;
+	border: 6px solid gray;
+}
+
+.box-inside-lose
+{
+	background-color:black;
+
+}
+
+.box-inside-chosen
+{
+	border-color:red;
+}
+
+.box-inside-win
+{
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 25%, rgba(255,0,255,1) 25%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 25%,rgba(255,0,255,1) 25%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 25%,rgba(255,0,255,1) 25%);
+}
+
+.box-up-lose, .box-inside-lose{
+	-webkit-box-shadow: inset 0px 0px 38px 14px rgba(102,81,38,1), 0px 0px 38px 14px rgba(102,81,38,1);
+	-moz-box-shadow: inset 0px 0px 38px 14px rgba(102,81,38,1), 0px 0px 38px 14px rgba(102,81,38,1);
+	box-shadow: inset 0px 0px 38px 14px rgba(102,81,38,1), 0px 0px 38px 14px rgba(102,81,38,1);
+}
+
+
+
+.box-up-win, .box-inside-win{
+	-webkit-box-shadow: inset 0px 0px 44px 23px rgba(255,162,0,1), 0px 0px 44px 23px rgba(255,162,0,1);
+	-moz-box-shadow: inset 0px 0px 44px 23px rgba(255,162,0,1), 0px 0px 44px 23px rgba(255,162,0,1);
+	box-shadow: inset 0px 0px 44px 23px rgba(255,162,0,1), 0px 0px 44px 23px rgba(255,162,0,1);
+}
+
+.btn-container{
+	margin-top:3em;
+	margin-bottom:3em;
+}
+
+.header-container,.result
+{
+	font-family:"PressStart2P";
+	font-size:200%;
+	text-align:center;
+	display:inline-box;
+}
+
+.header-container > div
+{
+	margin-bottom:1em;
+}
+
+.result{
+	margin-top:3em;
+}
